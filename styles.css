@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
@@ -34,9 +33,6 @@ body {
     padding: 5px;
     margin: auto;
 }
-.inputs {
-    margin: 3%;
-}
 
 .input {
     width: 95%;
@@ -55,29 +51,25 @@ body {
     font-weight: bold;
 }
 
-#bool {
-    margin-top: 5px;
-    margin-bottom: 15px;
-}
-
-.buttons {
-    margin-left: 6%;
+.check {
+  margin: 10px 15px;
 }
 
 button {
     background-color: #2E9AFF;
     color: #000000;
     height: 35px;
+    width: 200px;
     border-radius: 7px;
     border-style: none;
     padding: 5px 5px;
-    margin-top: 25px;
+    margin: 10px 32px;
     transition: background-color 0.6s, transform 0.5s;
 }
 
 button:hover {
     color: #ffffff;
-/*     transform: scale(105%); */
+    transform: scale(105%);
 }
 
 .checkbox {
@@ -86,4 +78,3 @@ button:hover {
     /*opacity: 0;*/
     margin-right: 15px;
 }
-
