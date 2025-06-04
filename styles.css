@@ -76,8 +76,8 @@ button {
 }
 
 button:hover {
-    background-color: #ffffff;
-    transform: scale(105%);
+    color: #ffffff;
+/*     transform: scale(105%); */
 }
 
 .checkbox {
