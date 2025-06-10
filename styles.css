@@ -9,7 +9,7 @@ body {
     background-color: #18191C;
     color: #FFFFFF;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", system-ui, sans-serif;
 }
 
 .header {
